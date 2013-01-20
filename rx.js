@@ -3033,4 +3033,4 @@ and limitations under the License.
     } else {
         window.Rx = root;
     }
-}(this));
+}((typeof(window)=="undefined" ? this : window)));
